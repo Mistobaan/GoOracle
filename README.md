@@ -33,7 +33,7 @@ Bring up the command palette (default ctrl+shift+p or cmd+shift+p) and start typ
 
 Oracle requires several variables to be set in order to work. These are explained in the comments of the default settings `Preferences > Package Settings > GoOracle > Settings-Default`:
 
-```javascript
+```json
 {
     // env is a map of GOPATH, GOROOT and PATH variables.
     // e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
@@ -50,7 +50,7 @@ Oracle requires several variables to be set in order to work. These are explaine
 
 You set your own variables in `Preferences > Package Settings > GoOracle > Settings-User`. Below is an example which sets up GoOracle to be used on the [github.com/juju/juju](github.com/juju/juju) codebase:
 
-```javascript
+```json
 {
     "env": { "GOPATH": "$HOME/go", "GOROOT": "$HOME/.gvm/gos/go1.2.1", "PATH": "$GOPATH/bin:$PATH" },
     "oracle_scope": ["github.com/juju/juju/cmd/juju", "github.com/juju/juju/cmd/jujud"],
@@ -60,7 +60,7 @@ You set your own variables in `Preferences > Package Settings > GoOracle > Setti
 
 Default key binding:
 
-```javascript
+```json
 [
     { "keys": ["ctrl+shift+o"], "command": "go_oracle"},
 ]

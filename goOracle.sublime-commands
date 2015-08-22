@@ -1,0 +1,56 @@
+[
+	{
+		"caption": "GoOracle: oracle",
+		"command": "go_oracle",
+	},
+	{
+		"caption": "GoOracle: callees",
+		"command": "go_oracle",
+		"args" : { "command": "callees" },
+	},
+	{
+		"caption": "GoOracle: callers",
+		"command": "go_oracle",
+		"args" : { "command": "callers" },
+	},
+	{
+		"caption": "GoOracle: callstack",
+		"command": "go_oracle",
+		"args" : { "command": "callstack" },
+	},
+	{
+		"caption": "GoOracle: definition",
+		"command": "go_oracle",
+		"args" : { "command": "definition" },
+	},
+	{
+		"caption": "GoOracle: describe",
+		"command": "go_oracle",
+		"args" : { "command": "describe" },
+	},
+	{
+		"caption": "GoOracle: freevars",
+		"command": "go_oracle",
+		"args" : { "command": "freevars" },
+	},
+	{
+		"caption": "GoOracle: implements",
+		"command": "go_oracle",
+		"args" : { "command": "implements" },
+	},
+	{
+		"caption": "GoOracle: peers",
+		"command": "go_oracle",
+		"args" : { "command": "peers" },
+	},
+	{
+		"caption": "GoOracle: referrers",
+		"command": "go_oracle",
+		"args" : { "command": "referrers" },
+	},
+	{
+		"caption": "GoOracle: what",
+		"command": "go_oracle",
+		"args" : { "command": "what" },
+	},
+]
